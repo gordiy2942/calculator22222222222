@@ -6,13 +6,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <EditText
-        android:id="@+id/editTextText"
+    <TextView
+        android:id="@+id/input"
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:layout_marginLeft="200dp"
-        android:text="Введите текст"
-        android:textSize="22sp" />
+        android:text=""
+        android:textSize="40sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -36,6 +36,7 @@
             />
         <Button
             android:layout_width="110dp"
+            android:id="@+id/button_1"
             android:layout_height="wrap_content"
             android:text="1"
             android:textColor="#000000"
@@ -44,6 +45,7 @@
             />
         <Button
             android:layout_width="110dp"
+            android:id="@+id/button_2"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
             android:text="2"
