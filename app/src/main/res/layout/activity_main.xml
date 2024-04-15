@@ -27,13 +27,13 @@
         android:layout_marginTop="400dp">
 
         <Button
+            android:id="@+id/button_C"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#FF0000"
             android:text="C"
             android:textColor="#000000"
-            android:backgroundTint="#FF0000"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
         <Button
             android:layout_width="110dp"
             android:id="@+id/button_1"
@@ -51,7 +51,9 @@
             android:text="2"
             android:textColor="#000000"
             android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_3"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
@@ -65,29 +67,34 @@
         >
 
         <Button
+            android:id="@+id/button_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#70A5FF"
             android:text="+"
             android:textColor="#000000"
-            android:backgroundTint="#70A5FF"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_4"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#AAA9A9"
             android:text="4"
             android:textColor="#000000"
-            android:backgroundTint="#AAA9A9"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_5"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
             android:text="5"
             android:textColor="#000000"
             android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_6"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
@@ -98,30 +105,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
+            android:id="@+id/button_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#70A5FF"
             android:text="-"
             android:textColor="#000000"
-            android:backgroundTint="#70A5FF"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_7"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#AAA9A9"
             android:text="7"
             android:textColor="#000000"
-            android:backgroundTint="#AAA9A9"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_8"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
             android:text="8"
             android:textColor="#000000"
             android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_9"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#AAA9A9"
@@ -133,30 +146,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
+
         <Button
+            android:id="@+id/button_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#70A5FF"
             android:text="*"
             android:textColor="#000000"
-            android:backgroundTint="#70A5FF"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_devide"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="#70A5FF"
             android:text=":"
             android:textColor="#000000"
-            android:backgroundTint="#70A5FF"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_point"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#70A5FF"
             android:text="."
             android:textColor="#000000"
             android:textSize="20sp" />
+
         <Button
+            android:id="@+id/button_OK"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#3D9A03"
