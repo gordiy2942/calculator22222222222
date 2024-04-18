@@ -14,100 +14,87 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        val input  = binding.input
 
-        val one: Button = binding.button1
+
+        val one = binding.button1
         one.setOnClickListener {
-            val input: TextView = binding.input
-           input.text = "1"
+            input.text = input.text.toString() + one.text.toString()
         }
 
-        val two : Button = binding.button2
+        val two = binding.button2
         two.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "2"
+            input.text = input.text.toString() + two.text.toString()
         }
 
-        val three : Button = binding.button3
+        val three = binding.button3
         three.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "3"
+            input.text = input.text.toString() + three.text.toString()
         }
 
-        val four : Button = binding.button4
+        val four = binding.button4
         four.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "4"
+            input.text = input.text.toString() + four.text.toString()
         }
 
-        val five : Button = binding.button5
+        val five = binding.button5
         five.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "5"
+            input.text = input.text.toString() + five.text.toString()
         }
 
-        val six : Button = binding.button6
+        val six = binding.button6
         six.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "6"
+            input.text = input.text.toString() + six.text.toString()
         }
 
-        val seven : Button = binding.button7
+        val seven = binding.button7
         seven.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "7"
+            input.text = input.text.toString() + seven.text.toString()
         }
 
-        val eight : Button = binding.button8
+        val eight = binding.button8
         eight.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "8"
+            input.text = input.text.toString() + eight.text.toString()
         }
 
-        val nine : Button = binding.button9
+        val nine = binding.button9
         nine.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "9"
+            input.text = input.text.toString() + nine.text.toString()
         }
 
-        val clear : Button = binding.buttonC
+        val clear = binding.buttonC
         clear.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = ""
+            binding.input.text = ""
         }
 
-        val plus : Button = binding.buttonPlus
+        val plus = binding.buttonPlus
         plus.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "+"
+            input.text = input.text.toString() + plus.text.toString()
         }
 
-        val minus : Button = binding.buttonMinus
+        val minus = binding.buttonMinus
         minus.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "-"
+            input.text = input.text.toString() + minus.text.toString()
         }
 
-        val multiply : Button = binding.buttonMultiply
+        val multiply = binding.buttonMultiply
         multiply.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "*"
+            input.text = input.text.toString() + multiply.text.toString()
         }
 
-        val devide : Button = binding.buttonDevide
+        val devide = binding.buttonDevide
         devide.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = ":"
+            input.text = input.text.toString() + devide.text.toString()
         }
 
-        val point : Button = binding.buttonPoint
+        val point = binding.buttonPoint
         point.setOnClickListener {
-            val input: TextView = binding.input
-            input.text = "."
+            input.text = input.text.toString() + point.text.toString()
         }
 
-        val okey : Button = binding.buttonOK
+        val okey = binding.buttonOK
         okey.setOnClickListener {
-            val input: TextView = binding.input
+            input.text = input.text.toString() + okey.text.toString()
         }
 
 
